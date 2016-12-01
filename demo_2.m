@@ -1,5 +1,5 @@
 %--------------------------------------------------------------------
-% Example of use during an experiment
+% Example of using IOI_jitter.m during an experiment
 %--------------------------------------------------------------------
 
 % A new IOI array is generated dynamcially before the start of each trial.
@@ -20,10 +20,10 @@ p = A(ix)
 n_Targets      		= 20;		% how many onsets are their in your sequence (large numbers > 50 will take a very long time to compute)
 periodic_IOI   		= 0.400;	% what is the default IOI (in seconds) for periodic sequences?
 jitter		    	= 0.6;		% how much temporal jitter do you want for aperiodic sequences? Pick a value 
-								% between 0 and 1. Read README and function instructions for further details.
+					% between 0 and 1. Read README and function instructions for further details.
 exclude_Window		= 0.025;	% what is the minimum time difference (in seconds) between any two succeeding IOIs in aperiodic sequences?
-total_dur_exception = 0.010;	% aperiodic sequences will be generated to have the same duration as periodic sequences. Define what window of
-								% accuracy (in seconds) you require the total duration between periodic and aperiodic to be. 
+total_dur_exception   = 0.010;		% aperiodic sequences will be generated to have the same duration as periodic sequences. 
+					% Define what window of accuracy (in seconds) you require the total duration between periodic and aperiodic to be. 
 
 % 4 Start trial loop
 for i = 1:t
