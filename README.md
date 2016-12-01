@@ -1,5 +1,5 @@
 #IOI_jitter.m
-# IOI temporal jitter algorithm generates a sequence of either periodic or aperiodic IOI values based on a range of predefined criteria.
+# IOI temporal jitter algorithm: Generate a sequence of either periodic or aperiodic IOI values based on a range of predefined criteria.
 *Author: David Greatrex, University of Cambridge.  
 *Date: 01/12/2016 -- Language: Matlab. -- Modifications:
 
@@ -21,7 +21,7 @@ Aperiodic sequences are always the same total duration as periodic counterparts,
 8. Look at the output.
 9. You should now be ready to incorporate this into your own experimental code.
 
-##Algorithm description:
+##Description:
 The presentation timing of stimulus onsets are determined using the temporal jitter procedure described by Goupell et al. (2009) and brown et al. (2011). 
 For each trial, the inter-onset interval (IOI) is drawn randomly from a uniform distribution centered at a nominal IOI of (periodic_IOI) ms, with a dispersion equal to 2i times the nominal IOI. 
 The parameter i thus defines the degree of temporal jitter, with i = 0 corresponding to temporal isochrony (no jitter) and i = 1 to maximal jitter (individual IOIs ranging from 0 to 2*nominal IOI).
