@@ -93,7 +93,7 @@ try
                 
                 while true
                     
-                    t = periodic_IOI.*rand(1,1) + IOI_range;     % random number between periodic_IOI ± IOI_range
+                    t = periodic_IOI + IOI_range * ( 2 * rand(1,1) - 1 ); % random number between periodic_IOI ± IOI_range
                     
                     if tMinus1 ~= 0
 
