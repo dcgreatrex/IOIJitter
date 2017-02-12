@@ -1,7 +1,7 @@
 #IOI_jitter.m
 # IOI temporal jitter algorithm: Generate a sequence of either periodic or aperiodic IOI values based on a range of predefined criteria.
 *Author: David Greatrex, University of Cambridge.
-*Contributors: Tal-Chen Rabinowitch  
+*Contributors: Tal-Chen Rabinowitch.  
 *Date: 12/02/2017 -- Language: Matlab.
 
 ##Overview:
