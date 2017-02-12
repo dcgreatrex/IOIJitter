@@ -68,7 +68,7 @@ try
         exclude_Window = 0.025;                            
     end
     if nargin < 4
-        jitter = 0.6;                      
+        jitter = 0.5;                      
     end
     if nargin < 3
         disp('WARNING, not enought input arguments. Please read function instructions and try again. Aborting...');
