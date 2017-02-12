@@ -55,7 +55,7 @@ function IOI_array = IOI_jitter(is_Periodic, n_Target, periodic_IOI, jitter, exc
 %
 % Author: David C Greatrex
 % Address: CMS, Cambridge University
-% Last revision: 30/11/2016
+% Last revision: 12/02/2017
 
 %------------------------------------------
 try 
